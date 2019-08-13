@@ -16,7 +16,7 @@ data = [go.Bar(
     )]
 
 layout = go.Layout(
-    title = 'Petting Zoo', # Graph title
+    title = 'Adorable Creatures', # Graph title
     xaxis = dict(title = 'Type of animal'), # x-axis label
     yaxis = dict(title = 'Number in the zoo'), # y-axis label
 
@@ -30,7 +30,7 @@ app = dash.Dash()
 server = app.server
 
 app.layout = html.Div(children=[
-    html.H1('Animals in the Zoo'),
+    html.H1('Petting Zoo'),
     dcc.Graph(
         id='figure-1',
         figure=fig
