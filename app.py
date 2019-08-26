@@ -7,7 +7,7 @@ import plotly.graph_objs as go
 
 myfavoritecolor='15F484'
 x_list=['velociraptor', 'allosaurus', 'camposaurus']
-y_list=y=[5, 2, 7]
+y_list=y=[8, 13, 7]
 
 data = [go.Bar(
             x=x_list,
